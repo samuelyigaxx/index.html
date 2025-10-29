@@ -1,0 +1,78 @@
+.body {
+    background-color: burlywood;
+    padding: 20px;
+    margin: 0;
+}
+.maindiv {
+    gap: 20px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: burlywood;
+}
+.blog{
+      border: black solid;
+    background-color: white;
+    width: 300px;
+    overflow: hidden;
+    flex-shrink: 0;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+    
+}
+.footer1{
+background-color: purple;
+display: flex;
+border-bottom-left-radius: 18px;
+border-bottom-right-radius: 18px;
+border-top-left-radius: 18px;
+border-top-right-radius: 18px;
+padding: 38px;
+justify-content: space-between ;
+font-size: 15px;
+font-weight: 25px;
+text-align:center;
+border: solid 0.5px; 
+flex-basis: 50%;
+
+
+}
+.footer2{
+background-color: #ff6600;
+display: flex;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+padding: 30px;
+justify-content: space-between ;
+font-size: 15px;
+font-weight: 25px;
+text-align:center;
+}
+.footer3{
+background-color:green;
+display: flex;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 18px;
+border-top-right-radius: 18px;
+padding: 38px;
+justify-content: space-between ;
+font-size: 15px;
+font-weight: 25px;
+text-align:center;
+}
+.Description-1{
+    font-size: 15px;
+    color: purple;
+}
+.Description-2{
+      font-size: 15px;
+    color: #ff6600;
+}
+.Description-3{
+      font-size: 15px;
+    color: green;
+}
